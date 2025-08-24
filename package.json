@@ -1,0 +1,32 @@
+{
+  "name": "zora-token-sdk-example",
+  "version": "1.0.0",
+  "description": "Simple example using Zora SDK to create tokens",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "create-token": "ts-node src/examples/create-token.ts",
+    "query-token": "ts-node src/examples/query-token.ts"
+  },
+  "keywords": [
+    "zora",
+    "token",
+    "blockchain",
+    "crypto",
+    "sdk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@zoralabs/coins-sdk": "^0.3.0",
+    "viem": "^2.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
